@@ -1,0 +1,14 @@
+(a)
+Edited:
+proc.c - add entire exitS(int status); function
+proc.h - add define exitS(int status);
+defs.h - defined exitS(int status);
+user.h - defined exitS(int status);
+sysproc.c - made sys_exitS(int) function
+syscall.c - defined sys_exitS(int)
+usys.S - add SYSCALL(exitS)
+syscall.h - add at the end SYSCALL
+
+use argptr in wait!!!! in syscall.c
+
+

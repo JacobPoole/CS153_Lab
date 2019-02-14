@@ -1,0 +1,11 @@
+geany *.c *.h *.S Makefile &
+syscall.c
+usys.S
+
+define in both 
+defs.h
+proc.c
+
+grep -rn --color . -e "kill"
+
+scp -r jpool003@sledge.cs.ucr.edu:~/xv6-public ~/Desktop
